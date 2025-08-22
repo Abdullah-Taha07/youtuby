@@ -3,17 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>container</title>
+    <title>Grid system</title>
     <link rel="stylesheet" href="bootstrap.css">
     <style>
-        .container-fluid{
-            background-color: red;
+        .colors{
+            background-color: rgb(224, 13, 13);
+            border: 1px solid #1087e7;
+            color: #fff;
         }
     </style>
 </head>
 <body>
-    <div class="container-fluid">
-        test
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-lg-3 colors">
+            One of four columns
+          </div>
+          <div class="col-sm-12 col-lg-3 colors">
+            One of four columns
+          </div>
+          <div class="col-sm-12 col-lg-3 colors">
+             One of four columns
+          </div>
+          <div class="col-sm-12 col-lg-3 colors">
+            One of four columns
+          </div>
+        </div>
     </div>
 
     <script src="jquery-3.7.1.min.js"></script>
